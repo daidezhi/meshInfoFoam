@@ -49,7 +49,7 @@
     faceArea.internalField() = mesh.magSf();
     
     
-    //Mesh face area vectors
+    //Mesh face centers
     surfaceVectorField faceCenter
     (
         IOobject
@@ -83,7 +83,7 @@
     faceAreaVector.internalField() = mesh.Sf();
     
     
-    //Mesh face area vectors
+    //Mesh face unit normal vectors
     surfaceVectorField faceUnitNormalVector
     (
         IOobject
